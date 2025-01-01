@@ -1,0 +1,134 @@
+.features {
+  text-align: center;
+  padding: 50px;
+  background-color: #f8f9fa;
+}
+
+.features-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.features-subtitle {
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-bottom: 40px;
+}
+
+.features-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.feature-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.feature-card .icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.feature-card h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+/* Analytics Section Centering */
+.analytics-features {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.analytics-header {
+  margin-bottom: 30px;
+}
+
+.analytics-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.analytics-description {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.analytics-center {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.analytics-image {
+  max-width: 100%;
+  height: auto;
+  borde
+  r-radius: 8px;
+}
+
+.features {
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .features-heading {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .features-title {
+    text-align: center;
+    font-size: 32px;
+    margin: 10px 0;
+    color: #222;
+  }
+  
+  .features-subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .features-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three cards per row */
+    gap: 20px;
+  }
+  
+  .feature-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+  }

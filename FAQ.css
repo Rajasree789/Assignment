@@ -1,0 +1,100 @@
+/* FAQ Section */
+.faq {
+  padding: 2rem 1rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Centered Titles */
+.faq-heading,
+.faq-contact-heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.faq-subheading {
+  text-align: center;
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* FAQ List */
+.faq-list {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.faq-item {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+/* FAQ Question Line */
+.faq-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+.faq-question {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  text-align: left;
+  flex: 1; /* Ensure question takes up available space */
+}
+
+.faq-toggle {
+  font-size: 1.5rem;
+  color: #333; /* Adjust color as needed */
+}
+
+/* FAQ Answer */
+.faq-answer {
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Divider between questions */
+.faq-divider {
+  margin: 0.5rem 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+/* Footer Section */
+.faq-contact {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.faq-contact-description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.get-in-touch {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.get-in-touch:hover {
+  background-color: #0056b3;
+}
